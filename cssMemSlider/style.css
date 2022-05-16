@@ -165,3 +165,26 @@ input {
 .text span {
     width: 100%;
 }
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+    }
+    .controls {
+        flex-direction: column-reverse;
+        column-gap: 1vw;
+        align-items: center;
+    }
+}
