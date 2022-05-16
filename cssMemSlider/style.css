@@ -19,8 +19,7 @@ body {
 #slider {
     position: relative;
 	text-align: center;
-    top: 1vh;
-    margin: 0 auto;
+    margin: 1vh auto;
 }
 
 #slides article { 
